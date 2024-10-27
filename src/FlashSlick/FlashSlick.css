@@ -1,0 +1,14 @@
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.product_modal{
+    height: 400px;
+    width: 50%;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+}

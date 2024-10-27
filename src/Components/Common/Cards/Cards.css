@@ -1,0 +1,11 @@
+.card{
+    height: 400px;
+    cursor: pointer;
+}
+.card img{
+    aspect-ratio: 2/2;
+}
+.card p:first-child{
+    font-size: 14px;
+    font-weight: 700;
+}

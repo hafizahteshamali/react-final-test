@@ -1,0 +1,25 @@
+.header{
+    padding: 10px;
+    width: 100%;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 99;
+}
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+}
+.header-wrapper ul li a{
+    color: #000;
+    font-weight: 600;
+}

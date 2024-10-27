@@ -1,0 +1,35 @@
+.box{
+    height: 300px;
+    width: 50% !important;
+    background-color: #A187D2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.dark{
+    height: 300px;
+    width: 50% !important;
+    background-color: #FFC456;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.image-wrapper{
+    height: 100%;
+    background-color: gray;
+    border-radius: 10px;
+}
+.image-wrapper img{
+    height: 100%;
+}
+.content-box{
+    padding: 10px;
+}
+.content-box h1{
+    font-size: 30px;
+}
+.content-box a{
+    color: #000;
+}

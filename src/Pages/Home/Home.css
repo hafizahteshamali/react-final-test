@@ -1,0 +1,42 @@
+.discoutCards{
+    width: 100%;
+}
+
+.iscoutCards-wrapper{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+.category{
+    width: 100%;
+    margin: 50px 0;
+}
+.feature-product{
+    width: 100%;
+    margin: 50px 0;
+}
+.feature-wrpper{
+    width: 100%;
+    display: flex;
+}
+.all-products{
+    margin-top: 50px;
+}
+.all-product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
+}
+.halfproductModal{
+    height: 400px;
+    width: 50%;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+}

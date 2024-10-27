@@ -1,0 +1,27 @@
+.product{
+    min-height: 250px;
+    width: 19%;
+    margin: 10px;
+    padding: 10px;
+}
+.box-wrap{
+    height: 90%;
+    width: 90%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-wrap img{
+    aspect-ratio: 2/2;
+    height: 150px !important;
+    width: 150px !important;
+    object-fit: contain;
+    border-radius: 10px !important;
+}
+.box-wrap h3{
+    font-size: 16px;
+}

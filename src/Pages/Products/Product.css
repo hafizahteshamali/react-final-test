@@ -1,0 +1,54 @@
+.product-wrapper{
+    margin-top: 50px;
+}
+.prod-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
+}
+.viewBtn{
+    padding: 5px;
+    width: 100% !important;
+    background-color: #ddd;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+select{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 17px !important;
+    background-color: #ddd;
+    border: none;
+    outline: none;
+}
+.search-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin-top: 30px;
+}
+.search-wrapper .input-wrapp{
+    width: 35%;
+    height: 45px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+.input-wrapp input{
+    width: 70%;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+.input-wrapp button{
+    width: 20%;
+    border-radius: 20px !important;
+}
